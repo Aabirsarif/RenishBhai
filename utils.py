@@ -459,7 +459,7 @@ async def get_shortlink(chat_id, link):
         https = "https"
         link = link.replace("http", https) #replacing http to https
     if URL == "shareus.io":
-        shortzy = Shortzy(api_key=SHORTNER_API, base_site=SHORTNER_SITE)
+        shortzy = Shortzy(api_key=API, base_site=URL)
         link = await shortzy.convert(link)
         return link
     if URL == "api.shareus.in":
