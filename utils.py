@@ -18,6 +18,7 @@ from database.users_chats_db import db
 from bs4 import BeautifulSoup
 import requests
 import aiohttp
+from shortzy import Shortzy
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -513,7 +514,11 @@ async def get_verify_shorted_link(num, link):
         https = "https"
         link = link.replace("http", https)
 
-    if URL == "api.shareus.in":
+    if URL == ""
+        shortzy = Shortzy(api_key=API, base_site=URL)
+        link = await shortzy.convert(link)
+        return link
+    elif URL == "api.shareus.in":
         url = f"https://{URL}/shortLink"
         params = {"token": API,
                   "format": "json",
