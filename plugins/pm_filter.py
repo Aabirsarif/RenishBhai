@@ -801,10 +801,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                  InlineKeyboardButton('Premium Gʀᴏᴜᴘ', url="https://t.me/MrMoviePro"),
+                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Mr_Movie_111")
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mrfuture247")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/mrfuture247")
                  ]
                 ]
             )
