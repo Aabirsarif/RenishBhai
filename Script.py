@@ -199,8 +199,8 @@ Nᴀᴍᴇ - {}"""
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @https://t.me/Mr_Movie_111
-▫️ Backup ɢʀᴏᴜᴘ : @https://t.me/MrMoviePro
+▫️ ᴄʜᴀɴɴᴇʟ : @Mr_Movie_111
+▫️ Backup ɢʀᴏᴜᴘ : @MrMoviePro
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
