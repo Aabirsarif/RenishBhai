@@ -247,7 +247,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url=f"https://t.me/MrMoviePro{temp.U_NAME}")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -360,7 +360,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url=f"https://t.me/{temp.U_NAME}")
+            InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url=f"https://t.me/MrMoviePro{temp.U_NAME}")
         ])
 
         if offset != "":
@@ -731,7 +731,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorbeatz")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mrfuture247")
                                 ]
                                 ]
                             )
@@ -1629,7 +1629,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url=f"https://t.me/MrMoviePro{temp.U_NAME}")
     ])
 
     if offset != "":
