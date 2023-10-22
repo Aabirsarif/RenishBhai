@@ -247,7 +247,7 @@ async def next_page(bot, query):
         InlineKeyboardButton("! Lᴀɴɢᴜᴀɢᴇs !", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
-        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url="https://t.me/MrMoviePro")
+        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url="t.me/MrMoviePro")
     ])
     try:
         await query.edit_message_reply_markup(
@@ -360,7 +360,7 @@ async def language_check(bot, query):
         ])
 
         btn.insert(0, [
-            InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url="https://t.me/MrMoviePro")
+            InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url="t.me/MrMoviePro")
         ])
 
         if offset != "":
@@ -728,10 +728,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                             reply_markup=InlineKeyboardMarkup(
                                 [
                                 [
-                                InlineKeyboardButton('Premium Gʀᴏᴜᴘ', url="https://t.me/MrMoviePro"),
-                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Mr_Movie_111")
+                                InlineKeyboardButton('Premium Gʀᴏᴜᴘ', url="t.me/MrMoviePro"),
+                                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="t.me/Mr_Movie_111")
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/mrfuture247")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mrfuture247")
                                 ]
                                 ]
                             )
@@ -801,10 +801,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Premium Gʀᴏᴜᴘ', url="https://t.me/MrMoviePro"),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="https://t.me/Mr_Movie_111")
+                  InlineKeyboardButton('Premium Gʀᴏᴜᴘ', url="t.me/MrMoviePro"),
+                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url="t.me/Mr_Movie_111")
                ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/mrfuture247")
+                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/mrfuture247")
                  ]
                 ]
             )
@@ -1629,7 +1629,7 @@ async def auto_filter(client, msg, spoll=False):
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url="https://t.me/MrMoviePro")
+        InlineKeyboardButton("⚡Join Mr Movie Premium⚡", url="t.me/MrMoviePro")
     ])
 
     if offset != "":
